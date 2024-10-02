@@ -8,7 +8,7 @@ function findHousing(housingToFind, housingList) {
         index++;
     }
 
-    return [-1, null];
+    return null;
 }
 
 
