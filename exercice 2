@@ -18,4 +18,4 @@ function findHousing(housingToFind, housingList) {
 console.log("I'm debugging")
 
 //Some code to display your function output: (you must modify it but /!\ do not deliver it /!\ ). Only deliver your function
-displayResult([4, "Igloo"])
+displayResult([5, "Igloo"])
