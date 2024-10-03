@@ -1,15 +1,8 @@
-function addHousing(housingList) {
-
+function addHousing (list, Newhouse, quantity)
+{ 
+if (housingList.has(Newhouse)) {
+ housingList.set(Newhouse, quantity + housingList.get(Newhouse));
+ } else { 
+ housingList.set(Newhouse, quantity);
+ }
 }
-let housingList = new Map();
-addHousing(housingList, "Flat", 2);
-addHousing(housingList, "Log", 3);
-addHousing(housingList, "Flat", 1);  
-addHousing(housingList, "Hutch", 2);
-
-
-displayResult(housingList);
-
-const result = new Map([["Flat", 5], ["Log", 3],["Hutch", 2] ]);
-
-displayResult(result);
